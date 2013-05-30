@@ -1,0 +1,22 @@
+{
+    "name": "jQuery Log",
+    "title": "jQuery Log",
+    "description": "A simple jQuery logging plugin to log exceptions and send them to your API instantly or periodically. If you opt for the periodic option it will store the errors in localstorage and then post them to your server based on the interval you choose.",
+    "keywords": [
+        "color",
+        "animation"
+    ],
+    "version": "0.1",
+    "author": {
+        "name": "Dean Vaughan",
+        "url": "http://www.mycreativedesign.co.uk"
+    },
+    "maintainers": [{
+            "name": "Dean Vaughan",
+            "email": "dean5000v@gmail.com",
+            "url": "http://www.mycreativedesign.co.uk"
+        }
+    ],
+    "homepage": "https://github.com/deanvaughan/jquery-log",
+    "docs": "https://github.com/deanvaughan/jquery-log"
+}
