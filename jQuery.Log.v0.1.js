@@ -1,9 +1,9 @@
 
 /*
- * jQuery Log v 0.1
- * 
+ * jQuery Log 
+ * @version: 0.1
  * @description A simple jQuery Plugin to catch client side errors and log them to your server instantly or periodically. 
- * @author Dean
+ * @author Dean - http://www.mycreativedesign.co.uk
  */
 
 (function($){ 
