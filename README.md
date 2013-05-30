@@ -5,28 +5,28 @@ A simple jQuery logging plugin to log exceptions and send them to your API insta
 
 1. Example usage to send caught exceptions to API immediately. 
 <pre>
-jQuery.Log('configure', {
-   url: 'http://www.mycreativedesign.co.uk/api/errors',
-});
+   jQuery.Log('configure', {
+      url: 'http://www.mycreativedesign.co.uk/api/errors',
+   });
 
-try {
-   somethingundefined("bad call");
-} catch (e) {
-   jQuery.Log(e);
-}
+   try {
+      somethingundefined("bad call");
+   } catch (e) {
+      jQuery.Log(e);
+   }
 </pre>
 
 2. Example usage to send caught exceptions to API every 60 seconds 
 <pre>
-jQuery.Log('configure', {
-   url: 'http://www.mycreativedesign.co.uk/api/errors',
-   uploadPeriodically: true,
-   uploadInterval: 60 // seconds
-});
-
-try {
-   throw new Error('error');
-} catch (e) {
-   jQuery.Log(e);
-} 
+   jQuery.Log('configure', {
+      url: 'http://www.mycreativedesign.co.uk/api/errors',
+      uploadPeriodically: true,
+      uploadInterval: 60 // seconds
+   });
+   
+   try {
+      throw new Error('error');
+   } catch (e) {
+      jQuery.Log(e);
+   } 
 </pre>
