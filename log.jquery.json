@@ -1,6 +1,6 @@
 {
     "name": "log",
-    "title": "jQuery Log",
+    "title": "jQuery Error Logger",
     "description": "A simple jQuery logging plugin to log exceptions and send them to your API instantly or periodically. If you opt for the periodic option it will store the errors in localstorage and then post them to your server based on the interval you choose.",
     "keywords": [
         "log",
@@ -8,7 +8,7 @@
 		"error",
 		"exception"
     ],
-    "version": "0.1.0",
+    "version": "0.1.1",
     "author": {
         "name": "Dean Vaughan",
         "url": "http://www.mycreativedesign.co.uk"
