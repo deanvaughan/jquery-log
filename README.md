@@ -3,7 +3,7 @@ jquery-log
 
 A simple jQuery logging plugin to log exceptions and send them to your API instantly or periodically. If you opt for the periodic option it will store the errors in localstorage and then post them to your server based on the interval you choose.
 
-@copyright Dean Vaughan - http://www.mycreativedesign.co.uk
+Dean Vaughan - http://www.mycreativedesign.co.uk
 
 1. Example usage to send caught exceptions to API immediately. 
 <pre>
